@@ -1,0 +1,1 @@
+(self.webpackChunkgo_mobile=self.webpackChunkgo_mobile||[]).push([[681],{7707:function(o){"use strict";o.exports=JSON.parse('{"allTagsPath":"/4d-web-studio/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/4d-web-studio/blog/tags/facebook"}')}}]);
