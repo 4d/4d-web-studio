@@ -23,6 +23,7 @@ title: Overview
 * directly execute 4D code on web events or datasource events
 * code & debug in the browser
 * and even edit a data model
+
 At the end of the road, developers will be able to build complete web business applications using only a web browser and their 4D coding skills. There is no Javascript involved.
 
 ## What to expect from this preview version
@@ -39,9 +40,9 @@ As usual in such situations, we do not recommend using this product in a product
 ## Technologies used
 
 In order to get the best experience possible, 4D Web Studio currently requires a precise set of 4D skills:
-* Knowledge of project mode: 4D Web Studio won’t run in binary mode
-* Knowledge of [ORDA](https://developer.4d.com/docs/en/ORDA/overview.html): 4D Web Studio relies heavily on [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass)
-* Being familiar with the [4D REST server](https://developer.4d.com/docs/en/REST/gettingStarted.html) and API
+* knowledge of project mode: 4D Web Studio won’t run in binary mode
+* knowledge of [ORDA](https://developer.4d.com/docs/en/ORDA/overview.html): 4D Web Studio relies heavily on [dataclasses](https://developer.4d.com/docs/en/ORDA/dsmapping.html#dataclass)
+* being familiar with the [4D REST server](https://developer.4d.com/docs/en/REST/gettingStarted.html) and API
 
 ## Before you start
 
@@ -72,4 +73,4 @@ Since 4D Web Studio is still in early stages of development, some features are n
 
  At this stage:
 * The debugger is not available yet
-* Navigation features are still in development, but you can already embed a webform inside another using the [Webform Loader](../webforms/using-web-form-editor.md#component-list)
+* Navigation features are still in development, but you can already embed a webform inside another using the [Webform Loader](design-webforms/create-webform.md#component-list) and attach [navigation actions to events](design-webforms/events/events.md#bind-a-navigation-action-to-an-event).

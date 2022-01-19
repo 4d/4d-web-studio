@@ -49,7 +49,7 @@ The objective is to display help when the user hovers over the component:
 
 ![alt-text](img/web-event-2.png)
 
-To attach an `onmouseover` event to an Input Text component that displays the information:
+This is done by attaching an `onmouseover` event to an **Input Text** component that displays the information:
 
 ![alt-text](img/web-event-1.png)
 
@@ -58,8 +58,6 @@ In the above image:
 * The Text Input component has `orderNumber` as server reference
 * The component has an `onmouseover` event attached to it
 * The exposed function `help` attached to the `onmouseover` event contains the following code: 
-
-#### Example 
 
 ```4d
 var $event : Object

@@ -31,7 +31,7 @@ module.exports = {
         {
           type: "doc",
           position: "left",
-          docId: "API/web-form-editor/web-event",
+          docId: "API/web-event",
           label: "API",
         },
       ],

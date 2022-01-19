@@ -3,13 +3,13 @@ id: WebFormItemClass
 title: WebFormItem
 ---
 
-When working in [4D Web Studio](../web-studio/web-studio.md), the `WebFormItem` class allows you to handle the behavior of webform components on the server side.
+When working in 4D Web Studio, the `WebFormItem` class allows you to handle the behavior of webform components on the server side.
 
 ### WebFormItem Objects
 
 `4D.WebFormItem` objects are properties of the `4D.WebForm` object returned by the `Web Form` command. 
 
-When you call the `Web Form` command, the returned `4D.WebForm` object holds as many `4D.WebFormItems` as there are components with [server-side references](../web-studio/web-studio.md#server-side-references) in your webform.
+When you call the `Web Form` command, the returned `4D.WebForm` object holds as many `4D.WebFormItems` as there are components with [server-side references](../design-webforms/create-webform.md#server-side-reference) in your webform.
 
 For example, `WebFormObject.myImage` refers to the image component with `myImage` as server reference.
 
@@ -41,7 +41,7 @@ To call a function that hides an image when the user clicks a button:
 var $myComponent: 4D.WebFormItem
 
 $myComponent:=Web Form.myImage
-$myComponent.hide() //The component that has "myComponent" as server reference 
+$myComponent.hide() // Hide the component that has "myImage" as server reference 
 ```
 
 3. Select the Button component and add an `onclick` event to it.

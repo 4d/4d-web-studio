@@ -7,42 +7,47 @@ module.exports = {
       label: "Overview"
     },
     {
-      type: 'doc',
-      id: 'configuration',
-      label: "Configuration"
+      type: 'category',
+      label: "Configuration",
+      items: ['configuration/4d-settings',
+        'configuration/license-usage'
+      ],
     },
     {
       type: 'category',
-      label: 'Webforms',
-      items: ['webforms/using-web-form-editor',
-        'webforms/rendering'
+      label: 'Designing a webform',
+      items: ['design-webforms/create-webform',
+        'design-webforms/components',
+        'design-webforms/styling',
+        'design-webforms/datasources',
+        'design-webforms/events/events'
       ],
     },
     {
       type: 'doc',
-      id: 'datasources',
-      label: "Datasources"
+      id: 'rendering',
+      label: "Rendering a webform"
     },
     {
       type: 'doc',
-      id: 'events',
-      label: "Events"
+      id: 'coding-and-debugging',
+      label: "Coding and debugging"
     },
   ],
   apiSidebar: [
     {
       type: 'doc',
-      id: 'API/web-form-editor/web-event',
+      id: 'API/web-event',
       label: "Web Event"
     },
     {
       type: 'doc',
-      id: 'API/web-form-editor/WebFormClass',
+      id: 'API/WebFormClass',
       label: "WebForm"
     },
     {
       type: 'doc',
-      id: 'API/web-form-editor/WebFormItemClass',
+      id: 'API/WebFormItemClass',
       label: "WebFormItem"
     }
   ],
