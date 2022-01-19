@@ -1,1 +1,0 @@
-(self.webpackChunkgo_mobile=self.webpackChunkgo_mobile||[]).push([[508],{9936:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/4d-web-studio/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/4d-web-studio/blog/tags/docusaurus"}')}}]);
