@@ -29,3 +29,7 @@ The Webform Editor provides several tools to customize the interface and content
 <li class="interface-item">Contextual configuration panel: Link events and methods to your components, edit CSS styles, etc.</li>
 <li class="interface-item-2"> Header: Save and preview your work, access the Data Explorer as well as additional settings.</li>
 </ol>
+
+## Uploading images
+
+With the [Image](./components.md#component-list) component, you can upload an image to the studio and display it in your application. That image is available to all the webforms in your project and is stored in the **Explorer** panel > **Assets** > **Images**.

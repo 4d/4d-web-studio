@@ -15,11 +15,11 @@ You can bind your webform events to different actions such as executing a functi
 
 ### Bind a class function to an event
 
-1. Select a component or a datasource. The configuration panel displays the events compatible with the element selected
+1. Select a component or a datasource. The Contextual panel displays the events that are compatible with the element you selected.
 
-2. Click a **"+"** button in the list to attach the corresponding event to the component or datasource. 
+2. Click a **Add a Function Event** to attach the corresponding event to the component or datasource.
 
-3. Select **execute a Member Function**
+3. Select a function in the list. 
 
 4. Add parameters (datasources or values) and point at a local or remote datasource to update:
 
@@ -33,21 +33,24 @@ You can bind your webform events to different actions such as executing a functi
 
 A class function can be mapped to several events, and you can assign several events to the same class function.
 
+> When configuring events,the functions that have namespaces displayed next to them are [shared functions](../datasources.md/#shared-functions).
+
 ### Bind a navigation action to an event
 
-To create navigation in your application, you can attach a navigation action to an event. That way, when the event triggers, it opens a webform in the current browser tab or in a new one.
+Inside your application, you can create navigation between pages or update the contents of a page by binding navigation actions to events.
 
-1. Select a component or a datasource and attach an event to it
-2. Select the navigation action to perform when the event triggers
-3. Define if the webform opens in the current browser tab or a new one:
+To do this: 
+
+1. Select a component or a datasource and select **Add a Navigation Event** in the Contextual panel.
+2. Select a target webform to navigate to.
+3. Define where the target webform opens:
+    * **New Tab**: Opens in a new browser tab 
+    * **Current Tab**: Opens in the current browser tab, replacing the current webform
+    * **Webform Loader**: Opens in the selected [Webform loader](../components.md#component-list)
+    * **Webform Loader (Self)**: Opens in the current [Webform loader](../components.md#component-list)
 
 ![search](img/navigation-event.png)
 
-:::note
-
-Webforms do not currently share their contexts. This means that datasources are currently not shared between webforms. For example, you cannot use webform1's datasources in webform2.  
-
-:::
 ### Chaining actions
 
 You can attach several events to a component or datasource. 
@@ -57,9 +60,16 @@ Events are executed in their defined order. When an event triggers, its actions 
 ## Event types
 
 Events can be set to trigger when end-users perform certain actions or when datasources are updated.
+
 ### User events
 
 You can set events to trigger when end-users perform certain actions, such as clicking a button.
+
+#### Example: Hello User
+
+This 5-minute video provides a "Hello User" example. Starting from a simple database, it covers how to enable access to the studio, create a basic interface, and trigger a search to greet the user by their name:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GwIdic4OhPQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Example: Search feature using the `onChange` event
 

@@ -3,7 +3,8 @@ id: styling
 title: Styling
 ---
 
-Once you've placed a component on the canvas, you can customize its look using the following tools.
+Once a component is on the Canvas, you can customize its look using styling tools.
+
 ### Styles Library 
 
 One way of styling components is by dragging CSS classes from the Styles Library and dropping them on the components.
@@ -16,7 +17,7 @@ The Styles Library offers two types of styles:
 
 Unlike Theme classes, Local styles can only be used in the Webforms in which they are created. 
 
-To create a local CSS class, click the "+" button and enter a name. CSS classes can be edited in the Contextual Configuration panel at the bottom.
+To create a local CSS class, click the "+" button and enter a name. CSS classes can be edited in the Contextual panel at the bottom.
 
 #### Inspect button
 
